@@ -1,4 +1,59 @@
+.projects {
+    padding-top: 3em;
+}
+
 .projects-title {
     font-weight: bold;
     text-align: center;
+}
+
+.project-name {
+    font-weight: bold;
+}
+
+.project-button-live {
+    color: rgb(117, 99, 232);
+    border: 2px solid rgb(117, 99, 232);
+    border-radius: 0px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 rgb(117, 99, 232);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    font-weight: bold;
+    margin-right: 1.5em;
+}
+
+.project-button-live:hover {
+    box-shadow: inset 400px 0 0 0 rgb(117, 99, 232);
+    color: white;
+    text-decoration: none;
+}
+
+.project-button-source {
+    color: rgb(117, 99, 232);
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.project-button-source:hover {
+    text-decoration: none;
+    color: rgb(117, 99, 232);
+    transform: translateX(0.2em);
+}
+
+.project-content {
+    margin-top: 2em;
+}
+
+.project-image {
+    padding-left: 3em;
 }

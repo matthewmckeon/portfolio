@@ -2,10 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Me from '../images/me.png';
+import Resume from '../images/resume.pdf';
 
 import '../styles/About.css';
 
 const About = () => {
+
   return (
     <section className='about'>
       <Container>
@@ -34,7 +36,9 @@ const About = () => {
               exercitation culpa anim dolore minim. Voluptate proident sint
               commodo proident laboris Lorem ex exercitation cillum ea.
             </p>
-            <div className='resume-button'>Resume</div>
+            <a href={Resume} target='blank' className='resume-button'>
+              Resume
+            </a>
           </Col>
         </Row>
       </Container>

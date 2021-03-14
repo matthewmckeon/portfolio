@@ -1,5 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import { Link } from 'react-scroll';
+import Fade from 'react-reveal/Fade';
 
 import '../styles/Hero.css';
 
@@ -7,14 +9,18 @@ const Hero = () => {
   return (
     <section className='hero'>
       <Container>
-        <h1 className='title'>
-          Hi, my name is
-          <span className='name'> Matt McKeon</span>
+        <Fade left={true} duration={1000} delay={500} distance='30px'>
+          <h1 className='title'>
+            Hi, my name is
+            <span className='name'> Matt McKeon</span>
+            <br />
+            I'm a Full-stack Developer.
+          </h1>
           <br />
-          I'm a Full-stack Developer.
-        </h1>
-        <br />
-        <div className='button'>Learn more</div>
+          <Link to='about' smooth duration={1000}>
+            <div className='button'>Learn more</div>
+          </Link>
+        </Fade>
       </Container>
     </section>
   );
