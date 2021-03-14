@@ -1,0 +1,40 @@
+.about {
+    background-color: rgb(218, 78, 132);
+    color: white;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.about-title {
+    font-weight: bold;
+}
+
+.about-content {
+    padding-top: 3em;
+}
+
+.about-info {
+    padding-top: 1em;
+    text-align: left;
+}
+
+.resume-button {
+    color: white;
+    border: 2px solid white;
+    border-radius: 0px;
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 white;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    font-weight: bold;
+}
+
+.resume-button:hover {
+    box-shadow: inset 400px 0 0 0 white;
+    color: rgb(218, 78, 132)
+  }
