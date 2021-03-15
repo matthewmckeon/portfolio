@@ -10,11 +10,10 @@
 }
 
 .about-content {
-    padding-top: 3em;
+    padding: 3em;
 }
 
 .about-info {
-    padding-top: 1em;
     text-align: left;
 }
 
@@ -32,6 +31,7 @@
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     font-weight: bold;
+    text-align: center;
 }
 
 .resume-button:hover {
@@ -39,3 +39,18 @@
     color: rgb(117, 99, 232);
     text-decoration: none;
 }
+
+@media only screen and (max-width: 700px) {
+    .about-info {
+      text-align: center;
+      padding-top: 2em;
+    }
+    .about-title {
+        font-size: 2em;
+    }
+    .about-content {
+        padding-top: 2em;
+        padding-left: 0;
+        padding-right: 0;
+    }
+  }

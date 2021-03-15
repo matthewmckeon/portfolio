@@ -15,8 +15,8 @@ const projectData = [
     info: 'Anim cillum do incididunt elit aliquip sint. Mollit tempor aute officia minim nulla. Esse duis sint do eu cupidatat pariatur in nostrud occaecat aliqua. Adipisicing quis dolore ullamco commodo cupidatat veniam adipisicing cupidatat laboris. Dolor aliquip velit dolor et.',
     img: SwansonPic,
     alt: 'Ron Swanson',
-    url: 'http://rounds-golf.heroku.app',
-    repo: 'https://github.com/matthewmckeon/rounds',
+    url: 'https://ron-swanson-quote.herokuapp.com/',
+    repo: 'https://github.com/matthewmckeon/ron-swanson-quote-generator',
   },
 ];
 

@@ -1,8 +1,9 @@
 * {
     font-family: 'Montserrat', sans-serif;
+    font-size: 100%;
 }
 
 section {
-    height: 100vh;
+    height: 100%;
     padding-bottom: 3em;
 }

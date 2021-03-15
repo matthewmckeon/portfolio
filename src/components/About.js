@@ -7,7 +7,6 @@ import Resume from '../images/resume.pdf';
 import '../styles/About.css';
 
 const About = () => {
-
   return (
     <section className='about'>
       <Container>
@@ -20,23 +19,30 @@ const About = () => {
           </Col>
           <Col md={6} sm={12} className='about-info'>
             <p>
-              Reprehenderit qui nostrud ad veniam magna. Laborum occaecat
-              incididunt fugiat aliquip ipsum ad velit labore cupidatat dolor in
-              consectetur esse tempor. Reprehenderit ad sunt eiusmod ea officia
-              sint cupidatat sint ullamco consectetur. Nisi officia veniam aute
-              pariatur nostrud dolor eiusmod magna esse do. Duis irure eiusmod
-              aliqua duis tempor. Velit duis nostrud sint non incididunt quis
-              adipisicing. Nisi incididunt voluptate nostrud est anim aute
-              laboris.
+              Hi! I recently graduated from UVA in December of 2020, where I
+              studied physics. My interests lie in software development,
+              consulting, and quality assurance.
             </p>
             <p>
-              Quis anim ea et in consequat. Est exercitation veniam eiusmod id
-              officia nulla. Irure deserunt nulla laboris esse anim elit duis
-              tempor consectetur quis. Dolor do aute ex nisi qui anim
-              exercitation culpa anim dolore minim. Voluptate proident sint
-              commodo proident laboris Lorem ex exercitation cillum ea.
+              My main skill set is in web development, however I have recently
+              been dipping my toes into machine learning. Some of the
+              technologies I enjoy using include React, Python, Node.js,
+              Express.js, and MySQL.
             </p>
-            <a href={Resume} target='blank' className='resume-button'>
+            <p>
+              Outside of work, I enjoy playing sports, trying new restaurants,
+              and spending time with friends and family.
+            </p>
+            <p>
+              If you would like to learn more about me, check out my resume
+              below!
+            </p>
+            <a
+              href={Resume}
+              target='_blank'
+              className='resume-button'
+              rel='noopener noreferrer'
+            >
               Resume
             </a>
           </Col>

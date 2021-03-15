@@ -16,15 +16,17 @@ const Projects = () => {
                 <p>{project.info}</p>
                 <a
                   href={project.url}
-                  target='blank'
+                  target='_blank'
                   className='project-button-live'
+                  rel='noopener noreferrer'
                 >
                   See Live
                 </a>
                 <a
                   href={project.repo}
-                  target='blank'
+                  target='_blank'
                   className='project-button-source'
+                  rel='noopener noreferrer'
                 >
                   Source Code
                 </a>
@@ -33,7 +35,7 @@ const Projects = () => {
                 <img
                   src={project.img}
                   alt={project.alt}
-                  width='700vw'
+                  width='100%'
                   height='auto'
                   className='project-image'
                 ></img>

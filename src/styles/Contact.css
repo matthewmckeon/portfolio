@@ -36,4 +36,16 @@
 
 .cta {
     padding-bottom: 1em;
+    line-height: 1.5em;
 }
+
+@media only screen and (max-width: 700px) {
+    .contact-title {
+        font-size: 2em;
+    }
+    .cta {
+        font-size: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }

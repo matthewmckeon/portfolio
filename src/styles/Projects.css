@@ -6,6 +6,7 @@
 .projects-title {
     font-weight: bold;
     text-align: center;
+    padding-bottom: 0.5em;
 }
 
 .project-name {
@@ -52,9 +53,25 @@
 }
 
 .project-content {
-    margin-top: 2em;
+    margin-top: 1.5em;
 }
 
 .project-image {
     padding-left: 3em;
+    margin-top: 1em;
 }
+
+@media only screen and (max-width: 700px) {
+    .projects-title {
+        font-size: 2em;
+    }
+    .project-name {
+        font-size: 1.3em;
+    }
+    .project-image {
+        padding: 1em 0;
+    }
+    .project-content {
+        padding: 0 1em;
+    }
+  }
