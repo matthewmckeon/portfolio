@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
-import '../styles/Contact.css'
+import '../styles/Contact.css';
 
 const Contact = () => {
   return (
@@ -9,7 +9,13 @@ const Contact = () => {
       <Container>
         <h1 className='contact-title'>CONTACT</h1>
         <h3 className='cta'>Would you like to connect? Awesome!</h3>
-        <div className='contact-button'>Let's Talk</div>
+        <a
+          href='mailto: mattmckeon2@gmail.com'
+          target='blank'
+          className='contact-button'
+        >
+          Let's Talk
+        </a>
       </Container>
     </section>
   );

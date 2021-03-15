@@ -1,6 +1,24 @@
 .footer {
-    background-color: rgb(55, 55, 55);
+    background-color: rgb(55, 55, 55); 
     color: white;
     text-align: center;
     height: 30vh;
+}
+
+.up {
+    margin-top: 1em;
+    transition: 0.3s;
+}
+
+.up:hover {
+    cursor: pointer;
+    transform: translateY(-0.1em);
+}
+
+.icon {
+    padding: 0 1em;
+}
+
+.author {
+    padding-top: 1.5em;
 }

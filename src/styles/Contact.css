@@ -25,6 +25,7 @@
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .contact-button:hover {
