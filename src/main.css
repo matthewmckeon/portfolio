@@ -7,3 +7,14 @@ section {
     height: 100%;
     padding-bottom: 3em;
 }
+
+@media only screen and (max-width: 400px) {
+    .contact-title {
+        font-size: 2em;
+    }
+    .cta {
+        font-size: 1.5em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
