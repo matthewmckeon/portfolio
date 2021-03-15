@@ -7,7 +7,7 @@ const projectData = [
     info: 'Anim cillum do incididunt elit aliquip sint. Mollit tempor aute officia minim nulla. Esse duis sint do eu cupidatat pariatur in nostrud occaecat aliqua. Adipisicing quis dolore ullamco commodo cupidatat veniam adipisicing cupidatat laboris. Dolor aliquip velit dolor et.',
     img: RoundsPic,
     alt: 'RoundsApp',
-    url: 'http://rounds-golf.heroku.app',
+    url: 'https://rounds-golf-app.heroku.app',
     repo: 'https://github.com/matthewmckeon/rounds',
   },
   {
