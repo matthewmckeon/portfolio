@@ -16,7 +16,9 @@ const Hero = () => {
             <br />
             I'm a Full-stack Developer.
           </h1>
-          <br />
+        </Fade>
+        <br />
+        <Fade left={true} duration={1000} delay={1000} distance='30px'>
           <Link to='about' smooth duration={1000}>
             <div className='button'>Learn more</div>
           </Link>
