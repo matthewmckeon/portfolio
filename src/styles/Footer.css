@@ -22,3 +22,12 @@
 .author {
     padding-top: 1.5em;
 }
+
+@media only screen and (min-width: 1350px) {
+    .icon {
+        padding: 2em 2em;
+    }
+    .author {
+        padding: 3em;
+    }
+  }

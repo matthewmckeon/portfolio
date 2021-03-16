@@ -18,11 +18,11 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom={true} distance='30px' delay={500}>
               <div className='about-img'>
-                <img src={Me} alt='me' width='70%' height='auto'></img>
+                <img src={Me} alt='me' width='70%' height='auto' className='me'></img>
               </div>
             </Fade>
           </Col>
-          <Col md={6} sm={12} className='about-info'>
+          <Col className='about-info'>
             <Fade left={true} distance='30px' delay={600}>
               <p>
                 Hi! I recently graduated from UVA in December of 2020, where I

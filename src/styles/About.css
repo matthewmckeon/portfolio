@@ -58,3 +58,17 @@
         padding-right: 0;
     }
   }
+
+  @media only screen and (min-width: 1350px) {
+    .about-title {
+        font-size: 3em;
+        padding-bottom: 1em;
+    }
+    .about-content {
+        padding: 1em;
+        font-size: 1.3em;
+    }
+    .me {
+        width: 100%;
+    }
+  }
